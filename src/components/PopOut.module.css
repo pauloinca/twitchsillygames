@@ -1,0 +1,98 @@
+/* .home{
+    position: absolute;
+} */
+
+.background {
+    height: 100vh;
+    background-color: #030411;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%234a2685' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container-paper {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 95%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+.title-wrapper {
+    word-wrap: break-word;
+    word-break: normal;
+    text-align: center;
+    /* font-size: calc(1rem + 2vmin); */
+}
+
+.title-wrapper>h1 {
+    /* color: blue; */
+    font-size: calc(1.5rem + 5vmin);
+}
+
+.word-wrapper {
+    word-wrap: break-word;
+    word-break: normal;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: crimson;
+    margin-bottom: 2rem;
+}
+
+.word-wrapper>h1 {
+    margin: 0;
+    max-height: 100%;
+    width: auto;
+    display: inline;
+    font-size: calc(100% + 3vw + 2.5vh);
+}
+
+.img-wrapper {
+    height: 45%;
+    width: 40%;
+    /* min-width: 15%; */
+    /* align-self: stretch; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    background-color: chartreuse;
+}
+
+.img-wrapper>img {
+    /* position: relative; */
+    /* width: 100%; */
+    width: auto;
+    max-height: 100%;
+    /* border-radius: 50%; */
+    margin: 0;
+}
+
+.container-timerbtn {
+    background-color: darkgreen;
+    height: auto;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

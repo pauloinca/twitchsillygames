@@ -1,0 +1,75 @@
+
+
+/* .gamechoose{
+    position: absolute;
+} */
+
+
+.container-paper {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    
+    height: calc(10rem + 40vmin);
+    width: calc(10rem + 40vmin);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;    
+    /* animation: .5s ease-out 0s 1 zoom; */
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.title-wrapper{
+    word-wrap: break-word;
+    word-break: normal;  
+    text-align: center;
+    font-size: calc(1rem + 2vmin);
+}
+
+h1{
+    font-size: calc(1.5rem + 5vmin);
+}
+
+.form-wrapper{
+    margin-top: calc(1rem + 2vmin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-class #textfield-nome{
+    width: calc(5rem + 30vmin);
+}
+
+.button-wrapper {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}

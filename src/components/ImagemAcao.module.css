@@ -1,0 +1,203 @@
+/* .gamechoose{
+    position: absolute;
+} */
+
+
+.container-paper {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+    /* white-space: nowrap; */
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    /* animation: .5s ease-out 0s 1 zoom; */
+}
+
+.container {
+    /* background-color: violet; */
+    width: 98%;
+    height: 98%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.box1 {
+    /* margin-right: auto; */
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: yellow;
+    margin-bottom: 1rem;
+}
+
+.title-wrapper {
+    background-color: turquoise;
+    word-wrap: break-word;
+    word-break: normal;
+    text-align: center;
+
+    width: 70%;
+    /* font-size: calc(1rem + 1vmin); */
+
+}
+
+.title-wrapper>h1 {
+    display: inline;
+    color: red;
+    font-size: calc(1rem + 1.5vw);
+
+}
+
+.title-wrapper>h2 {
+    display: inline;
+    color: red;
+
+
+
+}
+
+.btn-box1-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 30%;
+}
+
+.btn-info-wrapper {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+    transition: 0.8s;
+}
+
+
+.btn-info-wrapper>Button {
+    /* position: relative; */
+    /* width: 50%; */
+    width: 100%;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0;
+    background-color: crimson;
+    transition: 0.8s;
+}
+
+.btn-info-wrapper :hover,
+.btn-info-wrapper Button :hover {
+    background-color: black !important;
+}
+
+.btn-info-wrapper :hover>.info-icon {
+    transition: 0.8s;
+    background-color: black;
+}
+
+
+.info-icon {
+    height: 1.3rem;
+    width: auto;
+    background-color: crimson;
+    color: darkgreen;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    line-height: 50%;
+}
+
+.datagrid1-title-wrapper {
+    width: 69%;
+    text-align: center;
+
+}
+
+.datagrid2-title-wrapper {
+    width: 29%;
+    text-align: center;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.datagrid1-wrapper {
+    margin-left: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 69%;
+    height: 100%;
+}
+
+.customColumnPosicao {
+    /* width: calc(.5rem + 1vw); */
+    /* background-color: green; */
+}
+
+.customColumnNome {
+    min-width: 5rem;
+    width: calc(15vw);
+    /* background-color: red; */
+}
+
+.customColumnAcertos {
+    padding: 0;
+    min-width: 1rem;
+    /* width: calc(15vw); */
+    /* background-color: red; */
+}
+
+.Teste {
+    background-color: red;
+}
+
+.datagrid2-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29%;
+    height: 100%;
+    background-color: yellow;
+}
+
+/* .table{
+    width: calc(4rem + 100vmin);
+} */
+
+.box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1rem;
+}
