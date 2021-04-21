@@ -41,6 +41,7 @@ const PopOutWindow = (props) => {
       externalWindow.addEventListener("beforeunload", () => {
         props.closePopupWindowWithHooks();
       });
+      // TODO Remover os console.log
       console.log("Created Popup Window");
       return function cleanup() {
         console.log("Cleaned up Popup Window");
